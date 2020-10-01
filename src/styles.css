@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap";
+body {
+    background-color: black;
+    color: white;
+}
+
+.container,
+.container-fluid {
+    padding: 0;
+}
+
+.heading {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
