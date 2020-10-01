@@ -1,0 +1,10 @@
+<div class="container">
+    <h2 id="heading">Trending GIFs</h2>
+    <div class="row" *ngFor="let row of trendingGifs; let i = index">
+        <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let gif of row">
+            <div class="image" style="background-image: url({{gif.images.fixed_height.url}});">
+            </div>
+        </div>
+    </div>
+    <button class="load-more-button btn btn-primary" (click)="this.trendRow.addRow(this.trendingGifs);">Load More</button>
+</div>

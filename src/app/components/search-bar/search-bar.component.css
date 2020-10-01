@@ -1,0 +1,42 @@
+#top-bar {
+    background-color: #121212;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    position: absolute;
+    padding-top: 8px;
+}
+
+input,
+#search-button {
+    height: 52px;
+}
+
+#search-button {
+    display: inline-block;
+    position: absolute;
+    width: 52px;
+    right: 0px;
+    background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 40%, rgb(153, 51, 255) 100%);
+    background-size: 400%;
+}
+
+input,
+input:active,
+input:focus {
+    font-family: "Arial";
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+    outline: none;
+}
+
+[alt="search-icon"] {
+    margin: auto;
+    padding: 10px;
+}

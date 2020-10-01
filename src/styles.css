@@ -2,7 +2,7 @@
 
 @import "~bootstrap";
 body {
-    background-color: black;
+    background-color: #121212;
     color: white;
 }
 
@@ -11,8 +11,6 @@ body {
     padding: 0;
 }
 
-.heading {
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 24px;
+.container {
+    max-width: 1040px;
 }

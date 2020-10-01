@@ -1,49 +1,6 @@
-#logo {
-    position: absolute;
-    left: 15px;
-    padding-top: 10px;
-}
-
 .page-container {
-    width: 1040px;
+    width: 100%;
     max-width: 1040px;
     padding: 0;
     margin: auto;
-}
-
-input,
-#search-button {
-    height: 52px;
-}
-
-#search-button {
-    display: inline-block;
-    position: absolute;
-    width: 52px;
-    right: 0px;
-    background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 40%, rgb(153, 51, 255) 100%);
-    background-size: 400%;
-}
-
-input,
-input:active,
-input:focus {
-    font-family: "Arial";
-    font-size: 18px;
-    border: none;
-    border-radius: 0;
-    padding-left: 17px;
-    padding-right: 17px;
-    outline: none;
-}
-
-[alt="search-icon"] {
-    margin: auto;
-    padding: 10px;
-}
-
-.heading {
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 24px;
 }
